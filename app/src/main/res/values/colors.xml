@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#2196F3</color>
+    <color name="grey">#ffcad0c9</color>
+    <color name="half_white">#edf3ec</color>
+    <color name="trans_white">#ddffffff</color>
+    <color name="red">#F44336</color>
+    <color name="rose">#fff48283</color>
+    <color name="black">#000000</color>
+    <color name="dark_grey">#515151</color>
+    <color name="bg">#504551</color>
+    <color name="top">#742da8</color>
+    <color name="accent_dark">#c18920</color>
+    <color name="trans_black">#66000000</color>
+    <color name="popup_background">#EEEEEE</color>
+    <color name="primary">#d6df20</color>
+    <color name="primary_dark">#8e971f</color>
+    <color name="primary_light">#82d6df20</color>
+    <color name="accent">#448AFF</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#B6B6B6</color>
+</resources>
