@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_chennai"
     tools:context="com.cepheuen.olahwa.HomeActivity">
 
     <android.support.v7.widget.Toolbar
@@ -11,9 +12,52 @@
         android:background="?attr/colorPrimary"
         android:elevation="4dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true">
+
+    <Button
+         android:id="@+id/searchButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:ems="20"
+         android:layout_gravity="center"
+         android:layout_marginTop="30dp"
+         android:textColor="@color/black"
+         android:background="?attr/colorPrimary"
+         android:text="Search For Customers"   />
+    <Button
+            android:id="@+id/locateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:background="?attr/colorPrimary"
+            android:text="Locate Customer"   />
+    <Button
+            android:id="@+id/startTrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:background="?attr/colorPrimary"
+            android:text="Start Trip"   />
+    <Button
+            android:id="@+id/endTrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:background="?attr/colorPrimary"
+            android:text="End Trip"   />
+    </LinearLayout>
 
 </RelativeLayout>
